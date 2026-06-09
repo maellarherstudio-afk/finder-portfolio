@@ -1,0 +1,42 @@
+{
+  "root": {
+    "id": "root",
+    "name": "Portfolio",
+    "type": "folder",
+    "children": [
+      {
+        "id": "about",
+        "name": "À propos.txt",
+        "type": "about",
+        "content": "Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.\n\nSunt in culpa qui officia deserunt mollit anim id est laborum. Curabitur pretium tincidunt lacus. Nulla gravida orci a odio, et tempus feugiat.\n\n—\n\nmael.larher.studio@gmail.com"
+      },
+      {
+        "id": "ad",
+        "name": "Ad",
+        "type": "folder",
+        "children": [
+          {
+            "id": "ad-tape-a-loeil",
+            "name": "Tape à l'oeil",
+            "type": "folder",
+            "children": [
+              {
+                "id": "tao-1",
+                "name": "TAO_1.mp4",
+                "type": "video",
+                "youtubeId": "b7BLLvulNMc",
+                "ratio": "9/16"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "organique",
+        "name": "Organique",
+        "type": "folder",
+        "children": []
+      }
+    ]
+  }
+}
