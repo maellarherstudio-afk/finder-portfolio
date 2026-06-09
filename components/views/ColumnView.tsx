@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useCallback } from "react";
+import { useEffect, useRef } from "react";
 import { FileItem } from "@/types";
 import { IconChevronRight } from "../icons/SidebarIcons";
 import Thumbnail from "../Thumbnail";
@@ -31,8 +31,6 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
   const hoverBg   = isDark ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.05)";
 
   const scrollRef = useRef<HTMLDivElement>(null);
-  // Refs to each column container, to scroll selected item into view
-  const colRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   // Build columns: column 0 = root children, column N = children of selected item in col N-1
   const columns: FileItem[][] = [root.children ?? []];
@@ -50,14 +48,16 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
   }, [columnPath.length]);
 
   // Scroll selected item into view when columnPath changes
+  const lastSelectedId = columnPath[columnPath.length - 1];
   useEffect(() => {
-    columnPath.forEach((selectedId, colIndex) => {
-      const colEl = colRefs.current[colIndex];
-      if (!colEl) return;
-      const itemEl = colEl.querySelector(`[data-id="${selectedId}"]`) as HTMLElement | null;
+    if (!lastSelectedId) return;
+    // Use requestAnimationFrame to ensure DOM is painted before scrolling
+    const raf = requestAnimationFrame(() => {
+      const itemEl = document.querySelector(`[data-id="${lastSelectedId}"]`) as HTMLElement | null;
       itemEl?.scrollIntoView({ block: "nearest", behavior: "smooth" });
     });
-  }, [columnPath]);
+    return () => cancelAnimationFrame(raf);
+  }, [lastSelectedId]);
 
   return (
     <div ref={scrollRef} className="flex flex-row h-full overflow-x-auto overflow-y-hidden">
@@ -67,7 +67,6 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
         return (
           <div
             key={colIndex}
-            ref={el => { colRefs.current[colIndex] = el; }}
             className="flex flex-col shrink-0 overflow-y-auto overflow-x-hidden h-full"
             style={{
               width: 220,
