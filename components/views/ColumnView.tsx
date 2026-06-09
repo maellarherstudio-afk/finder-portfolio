@@ -84,6 +84,7 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
                   className="flex items-center px-3 select-none"
                   style={{
                     height: 30,
+                    flexShrink: 0,
                     cursor: item.type === "video" ? "pointer" : "default",
                     background: isCurrent ? selBg : isParent ? "rgba(255,255,255,0.08)" : "transparent",
                     borderRadius: active ? 6 : 0,
