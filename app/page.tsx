@@ -1,12 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Finder from "@/components/Finder";
 import BootScreen from "@/components/BootScreen";
 
 export default function Home() {
   const [booted, setBooted] = useState(false);
+  const [btnPressed, setBtnPressed] = useState(false);
 
   return (
     <div className="w-full min-h-screen" style={{ position: "relative", overflow: "hidden", background: "#0d0d0d" }}>
@@ -49,14 +50,22 @@ export default function Home() {
           </div>
           <div style={{ width: "100%", height: 1, background: "rgba(255,255,255,0.08)" }} />
           <button
+            onPointerDown={() => setBtnPressed(true)}
+            onPointerUp={() => setBtnPressed(false)}
+            onPointerLeave={() => setBtnPressed(false)}
             onClick={() => navigator.share?.({ title: "Maël Larher Studio", url: "https://mael-larher-studio.vercel.app" })}
             style={{
-              background: "none", border: "none", cursor: "pointer",
-              color: "#4da3ff", fontSize: 15, fontWeight: 600,
-              fontFamily: "inherit", padding: "4px 0",
+              background: btnPressed ? "rgba(77,163,255,0.15)" : "none",
+              border: "none", cursor: "pointer",
+              color: btnPressed ? "rgba(77,163,255,0.6)" : "#4da3ff",
+              fontSize: 15, fontWeight: 600,
+              fontFamily: "inherit", padding: "6px 24px",
+              borderRadius: 8,
+              transform: btnPressed ? "scale(0.96)" : "scale(1)",
+              transition: "transform 0.1s ease, background 0.1s ease, color 0.1s ease",
             }}
           >
-            Partager
+            M&apos;envoyer le lien
           </button>
         </div>
       </div>
