@@ -33,8 +33,8 @@ export default function QuickLook({ item, siblings, onClose, onNavigate }: Props
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.key === "Escape" || e.key === " ") { e.preventDefault(); onClose(); }
-      if (e.key === "ArrowRight" && hasNext) onNavigate(videos[currentIdx + 1]);
-      if (e.key === "ArrowLeft"  && hasPrev) onNavigate(videos[currentIdx - 1]);
+      if ((e.key === "ArrowRight" || e.key === "ArrowDown") && hasNext) { e.preventDefault(); onNavigate(videos[currentIdx + 1]); }
+      if ((e.key === "ArrowLeft"  || e.key === "ArrowUp")  && hasPrev) { e.preventDefault(); onNavigate(videos[currentIdx - 1]); }
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
