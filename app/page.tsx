@@ -40,11 +40,8 @@ export default function Home() {
           textAlign: "center",
         }}>
           <div>
-            <p style={{ fontWeight: 400, fontSize: 11, color: "rgba(255,255,255,0.3)", margin: "0 0 6px", letterSpacing: "0.04em" }}>
-              Erreur d&apos;affichage — 0x0000185
-            </p>
             <p style={{ fontWeight: 700, fontSize: 15, color: "rgba(255,255,255,0.95)", margin: "0 0 8px" }}>
-              « Portfolio » ne peut pas s&apos;ouvrir
+              Erreur 404
             </p>
             <p style={{ fontWeight: 400, fontSize: 13, color: "rgba(255,255,255,0.55)", margin: 0, lineHeight: 1.5 }}>
               Ce portfolio a été conçu pour une expérience desktop. Installe-toi devant un ordinateur pour le découvrir.
