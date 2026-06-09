@@ -75,21 +75,181 @@
             "name": "Clarins",
             "type": "folder",
             "children": [
-              { "id": "organique-clarins-clarins_backstage", "name": "Clarins_Backstage.mp4", "type": "video", "youtubeId": "aDKPMFamtg8", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_bluelagoon", "name": "Clarins_Bluelagoon.mp4", "type": "video", "youtubeId": "Cgr2jJ1JJk4", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_crew_capucine_etalonnee", "name": "Clarins_Crew_Capucine_Étalonnée.mp4", "type": "video", "youtubeId": "F1pA6s6rRrI", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_crew_charlotte", "name": "Clarins_Crew_Charlotte.mp4", "type": "video", "youtubeId": "TetQsaMOQUE", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_crew_charlotte_etalonnee", "name": "Clarins_Crew_Charlotte_Étalonnée.mp4", "type": "video", "youtubeId": "2PttqWGOBWE", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_crew_justine", "name": "Clarins_Crew_Justine.mp4", "type": "video", "youtubeId": "btv64yRvEbU", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_crew_madie_etalonnee", "name": "Clarins_Crew_Madie_Étalonnée.mp4", "type": "video", "youtubeId": "CdsXEylC8j0", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_ds9_application", "name": "Clarins_Ds9_Application.mp4", "type": "video", "youtubeId": "qYKrJmh-_f8", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_ds9_itw", "name": "Clarins_Ds9_Itw.mp4", "type": "video", "youtubeId": "I1PXODjAIKg", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_geraldine", "name": "Clarins_Géraldine.mp4", "type": "video", "youtubeId": "dSUPPeG69C0", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_grandprix_16_9", "name": "Clarins_Grandprix_16_9.mp4", "type": "video", "youtubeId": "-QgK5ABc1fE", "ratio": "16/9" },
-              { "id": "organique-clarins-clarins_grandprix", "name": "Clarins_Grandprix.mp4", "type": "video", "youtubeId": "rhU8zIbkIm4", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_marys_meals", "name": "Clarins_Mary's_Meals.mp4", "type": "video", "youtubeId": "sBI1ESImjCQ", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_plastic", "name": "Clarins_Plastic.mp4", "type": "video", "youtubeId": "8cMh7Dp4Vng", "ratio": "9/16" },
-              { "id": "organique-clarins-clarins_prixreveal", "name": "Clarins_Prixreveal.mp4", "type": "video", "youtubeId": "2ik118MRXDU", "ratio": "9/16" }
+              {
+                "id": "organique-clarins-clarins_backstage",
+                "name": "Clarins_Backstage.mp4",
+                "type": "video",
+                "youtubeId": "aDKPMFamtg8",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_bluelagoon",
+                "name": "Clarins_Bluelagoon.mp4",
+                "type": "video",
+                "youtubeId": "Cgr2jJ1JJk4",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_crew_capucine_etalonnee",
+                "name": "Clarins_Crew_Capucine_Étalonnée.mp4",
+                "type": "video",
+                "youtubeId": "F1pA6s6rRrI",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_crew_charlotte",
+                "name": "Clarins_Crew_Charlotte.mp4",
+                "type": "video",
+                "youtubeId": "TetQsaMOQUE",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_crew_charlotte_etalonnee",
+                "name": "Clarins_Crew_Charlotte_Étalonnée.mp4",
+                "type": "video",
+                "youtubeId": "2PttqWGOBWE",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_crew_justine",
+                "name": "Clarins_Crew_Justine.mp4",
+                "type": "video",
+                "youtubeId": "btv64yRvEbU",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_crew_madie_etalonnee",
+                "name": "Clarins_Crew_Madie_Étalonnée.mp4",
+                "type": "video",
+                "youtubeId": "CdsXEylC8j0",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_ds9_application",
+                "name": "Clarins_Ds9_Application.mp4",
+                "type": "video",
+                "youtubeId": "qYKrJmh-_f8",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_ds9_itw",
+                "name": "Clarins_Ds9_Itw.mp4",
+                "type": "video",
+                "youtubeId": "I1PXODjAIKg",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_geraldine",
+                "name": "Clarins_Géraldine.mp4",
+                "type": "video",
+                "youtubeId": "dSUPPeG69C0",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_grandprix_16_9",
+                "name": "Clarins_Grandprix_16_9.mp4",
+                "type": "video",
+                "youtubeId": "-QgK5ABc1fE",
+                "ratio": "16/9"
+              },
+              {
+                "id": "organique-clarins-clarins_grandprix",
+                "name": "Clarins_Grandprix.mp4",
+                "type": "video",
+                "youtubeId": "rhU8zIbkIm4",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_marys_meals",
+                "name": "Clarins_Mary's_Meals.mp4",
+                "type": "video",
+                "youtubeId": "sBI1ESImjCQ",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_plastic",
+                "name": "Clarins_Plastic.mp4",
+                "type": "video",
+                "youtubeId": "8cMh7Dp4Vng",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins_prixreveal",
+                "name": "Clarins_Prixreveal.mp4",
+                "type": "video",
+                "youtubeId": "2ik118MRXDU",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins-crew-capucine-etalonnee",
+                "name": "Clarins_Crew_Capucine_Étalonnée.mp4",
+                "type": "video",
+                "youtubeId": "iTwmo6Mqc1I",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins-crew-charlotte-etalonnee",
+                "name": "Clarins_Crew_Charlotte_Étalonnée.mp4",
+                "type": "video",
+                "youtubeId": "QfqRd_xnAXA",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins-crew-madie-etalonnee",
+                "name": "Clarins_Crew_Madie_Étalonnée.mp4",
+                "type": "video",
+                "youtubeId": "1ea9A_S19BM",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins-geraldine",
+                "name": "Clarins_Géraldine.mp4",
+                "type": "video",
+                "youtubeId": "zfUx2yr-IGU",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins-marys-meals",
+                "name": "Clarins_Mary’s_Meals.mp4",
+                "type": "video",
+                "youtubeId": "N4UDbXyQO9I",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins-shootingcorps-cryofrigo",
+                "name": "Clarins_Shootingcorps_Cryofrigo.mp4",
+                "type": "video",
+                "youtubeId": "dkOQ05uFuOk",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins-softfeet",
+                "name": "Clarins_Softfeet.mp4",
+                "type": "video",
+                "youtubeId": "uKyx5gbOoVI",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins-timalapse",
+                "name": "Clarins_Timalapse.mp4",
+                "type": "video",
+                "youtubeId": "zO_khnEQvZQ",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins-uv",
+                "name": "Clarins_Uv.mp4",
+                "type": "video",
+                "youtubeId": "blSOFxH-m40",
+                "ratio": "9/16"
+              },
+              {
+                "id": "organique-clarins-clarins-velvetgloves",
+                "name": "Clarins_Velvetgloves.mp4",
+                "type": "video",
+                "youtubeId": "hmlIMIclCeM",
+                "ratio": "9/16"
+              }
             ]
           }
         ]
