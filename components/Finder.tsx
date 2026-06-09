@@ -569,8 +569,37 @@ export default function Finder() {
       <QuickLook
         item={quickLook}
         siblings={quickLookSiblings}
-        onClose={() => setQuickLook(null)}
-        onNavigate={setQuickLook}
+        onClose={() => {
+          if (quickLook) {
+            setSelected(quickLook.id);
+            const parent = findParent(quickLook.id, root);
+            if (parent) {
+              const parentPath = findParent(parent.id, root);
+              const newPath = parentPath && parentPath.id !== "root"
+                ? [parentPath.id, parent.id, quickLook.id]
+                : parent.id === "root"
+                ? [quickLook.id]
+                : [parent.id, quickLook.id];
+              setColumnPath(newPath);
+            }
+          }
+          setQuickLook(null);
+        }}
+        onNavigate={(item) => {
+          setQuickLook(item);
+          // Sync column selection with the previewed video
+          setSelected(item.id);
+          const parent = findParent(item.id, root);
+          if (parent) {
+            const parentPath = findParent(parent.id, root);
+            const newPath = parentPath && parentPath.id !== "root"
+              ? [parentPath.id, parent.id, item.id]
+              : parent.id === "root"
+              ? [item.id]
+              : [parent.id, item.id];
+            setColumnPath(newPath);
+          }
+        }}
       />
     </div>
   );
