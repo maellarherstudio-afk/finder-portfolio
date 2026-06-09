@@ -50,7 +50,8 @@ export default function PreviewPanel({ item, onPlay }: Props) {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={`https://img.youtube.com/vi/${item.youtubeId}/mqdefault.jpg`}
+                src={`https://img.youtube.com/vi/${item.youtubeId}/maxresdefault.jpg`}
+                onError={e => { (e.currentTarget as HTMLImageElement).src = `https://img.youtube.com/vi/${item.youtubeId}/hqdefault.jpg`; }}
                 alt={item.name}
                 style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
               />
