@@ -28,6 +28,31 @@
                 "ratio": "9/16"
               }
             ]
+          },
+          {
+            "id": "ad-cabaia",
+            "name": "Cabaia",
+            "type": "folder",
+            "children": [
+              {
+                "id": "ad-cabaia-emoji-4-5",
+                "name": "Cabaia_Emoji_4-5.mp4",
+                "type": "video",
+                "youtubeId": "mmWrOHaRyx4",
+                "ratio": "4/5",
+                "year": "2026",
+                "duration": "0:15"
+              },
+              {
+                "id": "ad-cabaia-emoji-9-16",
+                "name": "Cabaia_Emoji_9-16.mp4",
+                "type": "video",
+                "youtubeId": "i6W74CMpbpo",
+                "ratio": "9/16",
+                "year": "2026",
+                "duration": "0:15"
+              }
+            ]
           }
         ]
       },
