@@ -51,15 +51,6 @@
                 "ratio": "9/16",
                 "year": "2026",
                 "duration": "0:15"
-              },
-              {
-                "id": "ad-cabaia-emoji-4-5",
-                "name": "Emoji_4-5.mp4",
-                "type": "video",
-                "youtubeId": "rSbvo4D-e7c",
-                "ratio": "4/5",
-                "year": "2026",
-                "duration": "0:15"
               }
             ]
           }
@@ -101,13 +92,6 @@
                 "name": "Crew_Charlotte.mp4",
                 "type": "video",
                 "youtubeId": "TetQsaMOQUE",
-                "ratio": "9/16"
-              },
-              {
-                "id": "organique-clarins-clarins_crew_charlotte_etalonnee",
-                "name": "Crew_Charlotte.mp4",
-                "type": "video",
-                "youtubeId": "2PttqWGOBWE",
                 "ratio": "9/16"
               },
               {
@@ -182,30 +166,23 @@
               },
               {
                 "id": "organique-clarins-clarins-crew-capucine-etalonnee",
-                "name": "Crew_Capucine_Étalonnée.mp4",
+                "name": "Crew_Capucine.mp4",
                 "type": "video",
                 "youtubeId": "iTwmo6Mqc1I",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-clarins-clarins-crew-charlotte-etalonnee",
-                "name": "Crew_Charlotte_Étalonnée.mp4",
+                "name": "Crew_Charlotte.mp4",
                 "type": "video",
                 "youtubeId": "QfqRd_xnAXA",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-clarins-clarins-crew-madie-etalonnee",
-                "name": "Crew_Madie_Étalonnée.mp4",
+                "name": "Crew_Madie.mp4",
                 "type": "video",
                 "youtubeId": "1ea9A_S19BM",
-                "ratio": "9/16"
-              },
-              {
-                "id": "organique-clarins-clarins-geraldine",
-                "name": "Géraldine.mp4",
-                "type": "video",
-                "youtubeId": "zfUx2yr-IGU",
                 "ratio": "9/16"
               },
               {
@@ -279,13 +256,6 @@
                 "ratio": "9/16"
               },
               {
-                "id": "organique-lipault-lipault-californiascalling-video12-fromeveryangle-carre",
-                "name": "Californiascalling_Fromeveryangle_Carré.mp4",
-                "type": "video",
-                "youtubeId": "6VlKWaypHWI",
-                "ratio": "1/1"
-              },
-              {
                 "id": "organique-lipault-lipault-californiascalling-video13-glitch-lostinberlin",
                 "name": "Californiascalling_Glitch_Lostinberlin.mp4",
                 "type": "video",
@@ -354,13 +324,6 @@
                 "type": "video",
                 "youtubeId": "NuZASmLca90",
                 "ratio": "9/16"
-              },
-              {
-                "id": "organique-lipault-lipault-californiascalling-video22-glitch-plume-carre",
-                "name": "Californiascalling_Glitch_Plume_Carré.mp4",
-                "type": "video",
-                "youtubeId": "5USAeIQzxAY",
-                "ratio": "1/1"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video23-focusplume",
@@ -447,13 +410,6 @@
                 "ratio": "9/16"
               },
               {
-                "id": "organique-lipault-lipault-californiascalling-video4-povcalifornia-carre",
-                "name": "Californiascalling_Povcalifornia_Carré.mp4",
-                "type": "video",
-                "youtubeId": "22oqcvdSfus",
-                "ratio": "1/1"
-              },
-              {
                 "id": "organique-lipault-lipault-californiascalling-video5-frozenmatcha",
                 "name": "Californiascalling_Frozenmatcha.mp4",
                 "type": "video",
@@ -475,13 +431,6 @@
                 "ratio": "9/16"
               },
               {
-                "id": "organique-lipault-lipault-californiascalling-video7-matchymatcha-carre",
-                "name": "Californiascalling_Matchymatcha_Carré.mp4",
-                "type": "video",
-                "youtubeId": "7Wx9mTBGuAA",
-                "ratio": "1/1"
-              },
-              {
                 "id": "organique-lipault-lipault-californiascalling-video9-rainy",
                 "name": "Californiascalling_Rainy.mp4",
                 "type": "video",
@@ -490,21 +439,21 @@
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video9-rainycarre",
-                "name": "Californiascalling_Rainycarré.mp4",
+                "name": "Californiascalling_Rainy.mp4",
                 "type": "video",
                 "youtubeId": "-j7kdJdfzds",
                 "ratio": "1/1"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video1-stopmo",
-                "name": "Californiascalling_Vidéo1_Stopmo.mp4",
+                "name": "Californiascalling_Stopmo.mp4",
                 "type": "video",
                 "youtubeId": "UgOvVgYEx8Y",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video8-artyfitcheck",
-                "name": "Californiascalling_Vidéo8_Artyfitcheck.mp4",
+                "name": "Californiascalling_Artyfitcheck.mp4",
                 "type": "video",
                 "youtubeId": "PLyZnd3oLQU",
                 "ratio": "9/16"
@@ -587,13 +536,6 @@
                 "ratio": "9/16"
               },
               {
-                "id": "organique-all-all-music-teaser-9-16-2",
-                "name": "Music_Teaser.mp4",
-                "type": "video",
-                "youtubeId": "-PoPfDstEjg",
-                "ratio": "16/9"
-              },
-              {
                 "id": "organique-all-all-tiktok-2023-0423-breakfast-view",
                 "name": "Tiktok_2023_0423_Breakfast_View.mp4",
                 "type": "video",
@@ -607,14 +549,6 @@
                 "type": "video",
                 "youtubeId": "0Cg14T5K9dQ",
                 "ratio": "9/16",
-                "year": "2023"
-              },
-              {
-                "id": "organique-all-all-tiktok-2023-0423-destirome-9-16-2",
-                "name": "Tiktok_2023_0423_Destirome.mp4",
-                "type": "video",
-                "youtubeId": "0lBtMru7Hww",
-                "ratio": "16/9",
                 "year": "2023"
               },
               {
