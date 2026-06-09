@@ -69,7 +69,7 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
             key={colIndex}
             className="flex flex-col shrink-0 overflow-y-auto overflow-x-hidden h-full"
             style={{
-              width: 220,
+              width: colIndex === columns.length - 1 ? 320 : 220,
               borderRight: `1px solid ${borderCol}`,
             }}
           >
