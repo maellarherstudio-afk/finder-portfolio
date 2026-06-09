@@ -30,10 +30,9 @@ export default function Home() {
           fontFamily: "-apple-system, 'SF Pro Display', BlinkMacSystemFont, sans-serif",
           textAlign: "center",
         }}>
-          <span style={{ fontSize: 52, lineHeight: 1 }}>🚀</span>
           <div>
             <p style={{ fontWeight: 700, fontSize: 15, color: "rgba(255,255,255,0.95)", margin: "0 0 8px" }}>
-              « finder-portfolio » ne peut pas s&apos;ouvrir
+              « Maël Larher » ne peut pas s&apos;ouvrir
             </p>
             <p style={{ fontWeight: 400, fontSize: 13, color: "rgba(255,255,255,0.55)", margin: 0, lineHeight: 1.5 }}>
               Ce portfolio a été conçu pour une expérience desktop. Installe-toi devant un ordinateur pour le découvrir.
