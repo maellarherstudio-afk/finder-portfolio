@@ -123,6 +123,11 @@ def find_or_create_folder(children, folder_id, folder_name):
     children.append(new)
     return new
 
+def strip_brand_prefix(name, brand):
+    """Remove brand prefix from display name (e.g. Clarins_Backstage → Backstage)"""
+    clean = re.sub(r'^' + re.escape(brand) + r'[_\-\s]?', '', name, flags=re.IGNORECASE).strip('_- ')
+    return clean if clean else name
+
 def add_to_portfolio(portfolio, client, brand, video_name, youtube_id, ratio, year=None):
     root = portfolio["root"]["children"]
     client_id = slugify(client)
@@ -130,22 +135,26 @@ def add_to_portfolio(portfolio, client, brand, video_name, youtube_id, ratio, ye
     brand_id = f"{client_id}-{slugify(brand)}"
     brand_node = find_or_create_folder(client_node["children"], brand_id, brand)
 
-    # Skip if already exists
+    # Strip brand prefix for display name
+    display_name = strip_brand_prefix(video_name, brand)
+
+    # Skip if already exists (compare by filename, not youtubeId)
+    expected_name = display_name + ".mp4"
     for v in brand_node["children"]:
-        if v.get("youtubeId") == youtube_id:
-            print(f"  ℹ️  Déjà dans portfolio.json, skip.")
+        if v.get("name") == expected_name:
+            print(f"  ℹ️  Déjà dans portfolio.json ({expected_name}), skip.")
             return
 
     entry = {
-        "id": f"{brand_id}-{slugify(video_name)}",
-        "name": video_name + ".mp4",
+        "id": f"{brand_id}-{slugify(display_name)}",
+        "name": display_name + ".mp4",
         "type": "video",
         "youtubeId": youtube_id,
         "ratio": ratio,
     }
     if year: entry["year"] = year
     brand_node["children"].append(entry)
-    print(f"  ✅ portfolio.json → {client} / {brand} / {video_name} ({ratio})")
+    print(f"  ✅ portfolio.json → {client} / {brand} / {display_name} ({ratio})")
 
 # ── Main ──────────────────────────────────────────────────────────────
 def main():
