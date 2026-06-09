@@ -21,8 +21,8 @@ export default function Home() {
         {/* Nom */}
         <p style={{
           fontFamily: "-apple-system, 'SF Pro Display', BlinkMacSystemFont, sans-serif",
-          fontWeight: 700, fontSize: 13, letterSpacing: "0.08em", textTransform: "uppercase",
-          color: "rgba(255,255,255,0.4)", margin: "0 0 20px", textAlign: "center",
+          fontWeight: 600, fontSize: 10, letterSpacing: "0.1em", textTransform: "uppercase",
+          color: "rgba(255,255,255,0.3)", margin: "0 0 32px", textAlign: "center",
         }}>
           Maël Larher Studio
         </p>
@@ -40,6 +40,9 @@ export default function Home() {
           textAlign: "center",
         }}>
           <div>
+            <p style={{ fontWeight: 400, fontSize: 11, color: "rgba(255,255,255,0.3)", margin: "0 0 6px", letterSpacing: "0.04em" }}>
+              Erreur d&apos;affichage — 0x0000185
+            </p>
             <p style={{ fontWeight: 700, fontSize: 15, color: "rgba(255,255,255,0.95)", margin: "0 0 8px" }}>
               « Portfolio » ne peut pas s&apos;ouvrir
             </p>
