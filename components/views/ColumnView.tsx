@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useCallback } from "react";
 import { FileItem } from "@/types";
 import { IconChevronRight } from "../icons/SidebarIcons";
 import Thumbnail from "../Thumbnail";
@@ -31,6 +31,8 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
   const hoverBg   = isDark ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.05)";
 
   const scrollRef = useRef<HTMLDivElement>(null);
+  // Refs to each column container, to scroll selected item into view
+  const colRefs = useRef<(HTMLDivElement | null)[]>([]);
 
   // Build columns: column 0 = root children, column N = children of selected item in col N-1
   const columns: FileItem[][] = [root.children ?? []];
@@ -47,6 +49,16 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
     scrollRef.current?.scrollTo({ left: 99999, behavior: "smooth" });
   }, [columnPath.length]);
 
+  // Scroll selected item into view when columnPath changes
+  useEffect(() => {
+    columnPath.forEach((selectedId, colIndex) => {
+      const colEl = colRefs.current[colIndex];
+      if (!colEl) return;
+      const itemEl = colEl.querySelector(`[data-id="${selectedId}"]`) as HTMLElement | null;
+      itemEl?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    });
+  }, [columnPath]);
+
   return (
     <div ref={scrollRef} className="flex flex-row h-full overflow-x-auto overflow-y-hidden">
       {columns.map((colItems, colIndex) => {
@@ -55,6 +67,7 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
         return (
           <div
             key={colIndex}
+            ref={el => { colRefs.current[colIndex] = el; }}
             className="flex flex-col shrink-0 overflow-y-auto overflow-x-hidden h-full"
             style={{
               width: 220,
@@ -68,6 +81,7 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
               return (
                 <div
                   key={item.id}
+                  data-id={item.id}
                   className="flex items-center px-3 select-none"
                   style={{
                     height: 30,
