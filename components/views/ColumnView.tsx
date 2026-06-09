@@ -83,7 +83,7 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
                   data-id={item.id}
                   className="flex items-center px-3 select-none"
                   style={{
-                    height: item.type === "video" ? 38 : 30,
+                    height: item.type === "video" ? 32 : 26,
                     flexShrink: 0,
                     cursor: item.type === "video" ? "pointer" : "default",
                     background: isCurrent ? selBg : isParent ? "rgba(255,255,255,0.08)" : "transparent",
@@ -97,13 +97,13 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
                   }}
                 >
                   <div style={{ marginRight: 7 }}>
-                    <Thumbnail item={item} height={item.type === "video" ? 28 : 20} borderRadius={3} isDark={true} />
+                    <Thumbnail item={item} height={item.type === "video" ? 24 : 18} borderRadius={3} isDark={true} />
                   </div>
                   <span
                     style={{
                       flex: 1,
                       color: isCurrent ? "#fff" : isParent ? "rgba(255,255,255,0.55)" : textColor,
-                      fontSize: 10,
+                      fontSize: 11,
                       overflow: "hidden",
                       textOverflow: "ellipsis",
                       whiteSpace: "nowrap",
