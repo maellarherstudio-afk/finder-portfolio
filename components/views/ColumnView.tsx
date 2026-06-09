@@ -103,7 +103,7 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
                     style={{
                       flex: 1,
                       color: isCurrent ? "#fff" : isParent ? "rgba(255,255,255,0.55)" : textColor,
-                      fontSize: 13,
+                      fontSize: 12,
                       overflow: "hidden",
                       textOverflow: "ellipsis",
                       whiteSpace: "nowrap",
