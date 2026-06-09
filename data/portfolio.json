@@ -47,8 +47,17 @@
                 "id": "ad-cabaia-emoji-9-16",
                 "name": "Cabaia_Emoji_9-16.mp4",
                 "type": "video",
-                "youtubeId": "i6W74CMpbpo",
+                "youtubeId": "h3Yle_-Sb9k",
                 "ratio": "9/16",
+                "year": "2026",
+                "duration": "0:15"
+              },
+              {
+                "id": "ad-cabaia-emoji-4-5",
+                "name": "Cabaia_Emoji_4-5.mp4",
+                "type": "video",
+                "youtubeId": "rSbvo4D-e7c",
+                "ratio": "4/5",
                 "year": "2026",
                 "duration": "0:15"
               }
