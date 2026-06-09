@@ -15,6 +15,7 @@ import ListView from "./views/ListView";
 import ColumnView from "./views/ColumnView";
 import GalleryView from "./views/GalleryView";
 import SearchView from "./views/SearchView";
+import PreviewPanel from "./PreviewPanel";
 
 import {
   IconGrid, IconList, IconColumns, IconGallery, IconSearch,
@@ -509,7 +510,7 @@ export default function Finder() {
           <Sidebar currentId={currentId} onNavigate={navigate} onContact={() => setShowContact(true)} theme={theme} />
 
           <main
-            className="flex-1 overflow-auto"
+            className="flex-1 overflow-auto flex"
             style={{ background: mainBg }}
             onClick={() => { setSelected(null); setColumnPath([]); }}
           >
@@ -520,7 +521,7 @@ export default function Finder() {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.12 }}
-                className="h-full"
+                className="flex-1 h-full overflow-hidden"
               >
                 {searching && (
                   <SearchView query={searchQuery} root={root} selectedId={selected} onSelect={setSelected} onOpen={handleOpenFromSearch} theme={theme} />
@@ -539,6 +540,17 @@ export default function Finder() {
                 )}
               </motion.div>
             </AnimatePresence>
+            {viewMode === "columns" && (
+              <PreviewPanel
+                item={(() => {
+                  const lastId = columnPath[columnPath.length - 1];
+                  if (!lastId) return null;
+                  const item = findItem(lastId, root);
+                  return item?.type === "video" ? item : null;
+                })()}
+                onPlay={(item) => setQuickLook(item)}
+              />
+            )}
           </main>
         </div>
 

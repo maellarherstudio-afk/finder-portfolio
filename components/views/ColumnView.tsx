@@ -83,7 +83,7 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
                   data-id={item.id}
                   className="flex items-center px-3 select-none"
                   style={{
-                    height: 30,
+                    height: item.type === "video" ? 38 : 30,
                     flexShrink: 0,
                     cursor: item.type === "video" ? "pointer" : "default",
                     background: isCurrent ? selBg : isParent ? "rgba(255,255,255,0.08)" : "transparent",
@@ -96,8 +96,8 @@ export default function ColumnView({ root, columnPath, onSelectInColumn, onOpenF
                     if (item.type !== "folder") onOpenFile(item);
                   }}
                 >
-                  <div style={{ marginRight: 6 }}>
-                    <Thumbnail item={item} height={20} borderRadius={3} isDark={true} />
+                  <div style={{ marginRight: 7 }}>
+                    <Thumbnail item={item} height={item.type === "video" ? 28 : 20} borderRadius={3} isDark={true} />
                   </div>
                   <span
                     style={{
