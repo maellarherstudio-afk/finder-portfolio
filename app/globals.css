@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@media (min-width: 768px) {
+  #mobile-msg { display: none !important; }
+}
+
 * {
   box-sizing: border-box;
 }

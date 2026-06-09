@@ -12,9 +12,6 @@ export default function Home() {
     <div className="w-full min-h-screen" style={{ position: "relative", overflow: "hidden", background: "#0d0d0d" }}>
 
       {/* Message mobile — uniquement sur écrans < 768px */}
-      <style>{`
-        @media (min-width: 768px) { #mobile-msg { display: none !important; } }
-      `}</style>
       <div id="mobile-msg" style={{
         position: "fixed", inset: 0, zIndex: 9999,
         background: "radial-gradient(ellipse 80% 60% at 20% 50%, #1a1a3e 0%, transparent 60%), radial-gradient(ellipse 60% 70% at 80% 30%, #0d2030 0%, transparent 55%), radial-gradient(ellipse 50% 50% at 60% 80%, #1e1228 0%, transparent 50%), #0d0d0d",
