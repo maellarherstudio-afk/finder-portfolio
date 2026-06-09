@@ -123,10 +123,21 @@ def find_or_create_folder(children, folder_id, folder_name):
     children.append(new)
     return new
 
+DISPLAY_NOISE = [
+    r'_?Étalonnée?', r'_?Etalonnee?',
+    r'_?Vidéo\d+_?', r'_?Video\d+_?',
+    r'_?V\d+$',
+    r'_?Carr[eé]$',
+    r'_?9-16_\d+$', r'_?16-9_\d+$',
+]
+
 def strip_brand_prefix(name, brand):
-    """Remove brand prefix from display name (e.g. Clarins_Backstage → Backstage)"""
-    clean = re.sub(r'^' + re.escape(brand) + r'[_\-\s]?', '', name, flags=re.IGNORECASE).strip('_- ')
-    return clean if clean else name
+    """Remove brand prefix and noise from display name"""
+    s = re.sub(r'^' + re.escape(brand) + r'[_\-\s]?', '', name, flags=re.IGNORECASE).strip('_- ')
+    for n in DISPLAY_NOISE:
+        s = re.sub(n, '_', s, flags=re.IGNORECASE)
+    s = re.sub(r'_+', '_', s).strip('_')
+    return s if s else name
 
 def add_to_portfolio(portfolio, client, brand, video_name, youtube_id, ratio, year=None):
     root = portfolio["root"]["children"]

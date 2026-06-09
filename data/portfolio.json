@@ -91,7 +91,7 @@
               },
               {
                 "id": "organique-clarins-clarins_crew_capucine_etalonnee",
-                "name": "Crew_Capucine_Étalonnée.mp4",
+                "name": "Crew_Capucine.mp4",
                 "type": "video",
                 "youtubeId": "F1pA6s6rRrI",
                 "ratio": "9/16"
@@ -105,7 +105,7 @@
               },
               {
                 "id": "organique-clarins-clarins_crew_charlotte_etalonnee",
-                "name": "Crew_Charlotte_Étalonnée.mp4",
+                "name": "Crew_Charlotte.mp4",
                 "type": "video",
                 "youtubeId": "2PttqWGOBWE",
                 "ratio": "9/16"
@@ -119,7 +119,7 @@
               },
               {
                 "id": "organique-clarins-clarins_crew_madie_etalonnee",
-                "name": "Crew_Madie_Étalonnée.mp4",
+                "name": "Crew_Madie.mp4",
                 "type": "video",
                 "youtubeId": "CdsXEylC8j0",
                 "ratio": "9/16"
@@ -259,238 +259,238 @@
             "children": [
               {
                 "id": "organique-lipault-lipault-californiascalling-video10-citytrip",
-                "name": "Californiascalling_Video10_Citytrip.mp4",
+                "name": "Californiascalling_Citytrip.mp4",
                 "type": "video",
                 "youtubeId": "9Dc_YF7FlUg",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video11-videogames",
-                "name": "Californiascalling_Video11_Videogames.mp4",
+                "name": "Californiascalling_Videogames.mp4",
                 "type": "video",
                 "youtubeId": "R4RLgH_baxI",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video12-fromeveryangle",
-                "name": "Californiascalling_Video12_Fromeveryangle.mp4",
+                "name": "Californiascalling_Fromeveryangle.mp4",
                 "type": "video",
                 "youtubeId": "byWz3-RNrJU",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video12-fromeveryangle-carre",
-                "name": "Californiascalling_Video12_Fromeveryangle_Carré.mp4",
+                "name": "Californiascalling_Fromeveryangle_Carré.mp4",
                 "type": "video",
                 "youtubeId": "6VlKWaypHWI",
                 "ratio": "1/1"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video13-glitch-lostinberlin",
-                "name": "Californiascalling_Video13_Glitch_Lostinberlin.mp4",
+                "name": "Californiascalling_Glitch_Lostinberlin.mp4",
                 "type": "video",
                 "youtubeId": "eTtvpK5dEqE",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video14-focuslostinberlin",
-                "name": "Californiascalling_Video14_Focuslostinberlin.mp4",
+                "name": "Californiascalling_Focuslostinberlin.mp4",
                 "type": "video",
                 "youtubeId": "vLwxVU3BTuk",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video15-petcarrier-teaser",
-                "name": "Californiascalling_Video15_Petcarrier_Teaser.mp4",
+                "name": "Californiascalling_Petcarrier_Teaser.mp4",
                 "type": "video",
                 "youtubeId": "v9CLkJXwGVk",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video16-petcarrier-reveal",
-                "name": "Californiascalling_Video16_Petcarrier_Reveal.mp4",
+                "name": "Californiascalling_Petcarrier_Reveal.mp4",
                 "type": "video",
                 "youtubeId": "_65NKTwZVhk",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video17-verylongtrip-teaser",
-                "name": "Californiascalling_Video17_Verylongtrip_Teaser.mp4",
+                "name": "Californiascalling_Verylongtrip_Teaser.mp4",
                 "type": "video",
                 "youtubeId": "ra6cC2ovSbQ",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video18-verylongtrip-reveal",
-                "name": "Californiascalling_Video18_Verylongtrip_Reveal.mp4",
+                "name": "Californiascalling_Verylongtrip_Reveal.mp4",
                 "type": "video",
                 "youtubeId": "BSyeJb1PiTg",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video19-ssibilities",
-                "name": "Californiascalling_Video19_Ssibilities.mp4",
+                "name": "Californiascalling_Ssibilities.mp4",
                 "type": "video",
                 "youtubeId": "K0sTB2iOJ7o",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video20-colorshow",
-                "name": "Californiascalling_Video20_Colorshow.mp4",
+                "name": "Californiascalling_Colorshow.mp4",
                 "type": "video",
                 "youtubeId": "4BuqLsnKY6w",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video21-editomode",
-                "name": "Californiascalling_Video21_Editomode.mp4",
+                "name": "Californiascalling_Editomode.mp4",
                 "type": "video",
                 "youtubeId": "yStiY2glD_k",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video22-glitch-plume",
-                "name": "Californiascalling_Video22_Glitch_Plume.mp4",
+                "name": "Californiascalling_Glitch_Plume.mp4",
                 "type": "video",
                 "youtubeId": "NuZASmLca90",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video22-glitch-plume-carre",
-                "name": "Californiascalling_Video22_Glitch_Plume_Carré.mp4",
+                "name": "Californiascalling_Glitch_Plume_Carré.mp4",
                 "type": "video",
                 "youtubeId": "5USAeIQzxAY",
                 "ratio": "1/1"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video23-focusplume",
-                "name": "Californiascalling_Video23_Focusplume.mp4",
+                "name": "Californiascalling_Focusplume.mp4",
                 "type": "video",
                 "youtubeId": "-_UawRVgKH8",
                 "ratio": "16/9"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video24-howtotravelinstyle",
-                "name": "Californiascalling_Video24_Howtotravelinstyle.mp4",
+                "name": "Californiascalling_Howtotravelinstyle.mp4",
                 "type": "video",
                 "youtubeId": "0gaSP2_Q9AI",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video25-povfly",
-                "name": "Californiascalling_Video25_Povfly.mp4",
+                "name": "Californiascalling_Povfly.mp4",
                 "type": "video",
                 "youtubeId": "gU1EpTTjmp4",
                 "ratio": "4/5"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video26-focuspackingcubes",
-                "name": "Californiascalling_Video26_Focuspackingcubes.mp4",
+                "name": "Californiascalling_Focuspackingcubes.mp4",
                 "type": "video",
                 "youtubeId": "NP4Zw5kvbFA",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video27-packingcubesgames",
-                "name": "Californiascalling_Video27_Packingcubesgames.mp4",
+                "name": "Californiascalling_Packingcubesgames.mp4",
                 "type": "video",
                 "youtubeId": "QmPYKMOS6Hk",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video27-packingcubesgames-tetris",
-                "name": "Californiascalling_Video27_Packingcubesgames_Tetris.mp4",
+                "name": "Californiascalling_Packingcubesgames_Tetris.mp4",
                 "type": "video",
                 "youtubeId": "JOLEQhDvMMw",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video28-day",
-                "name": "Californiascalling_Video28_Day.mp4",
+                "name": "Californiascalling_Day.mp4",
                 "type": "video",
                 "youtubeId": "v-6RJ_HZ3to",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video29-pride",
-                "name": "Californiascalling_Video29_Pride.mp4",
+                "name": "Californiascalling_Pride.mp4",
                 "type": "video",
                 "youtubeId": "aGhHnLdsgfc",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video2-gallerie",
-                "name": "Californiascalling_Video2_Gallerie.mp4",
+                "name": "Californiascalling_Gallerie.mp4",
                 "type": "video",
                 "youtubeId": "tGDoB_bzYKQ",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video30-outfitcheck",
-                "name": "Californiascalling_Video30_Outfitcheck.mp4",
+                "name": "Californiascalling_Outfitcheck.mp4",
                 "type": "video",
                 "youtubeId": "zcFDJ3_74MQ",
                 "ratio": "16/9"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video3-photomontage",
-                "name": "Californiascalling_Video3_Photomontage.mp4",
+                "name": "Californiascalling_Photomontage.mp4",
                 "type": "video",
                 "youtubeId": "MnXzNSrUICk",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video4-povcalifornia",
-                "name": "Californiascalling_Video4_Povcalifornia.mp4",
+                "name": "Californiascalling_Povcalifornia.mp4",
                 "type": "video",
                 "youtubeId": "FTFwm7rWoNo",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video4-povcalifornia-carre",
-                "name": "Californiascalling_Video4_Povcalifornia_Carré.mp4",
+                "name": "Californiascalling_Povcalifornia_Carré.mp4",
                 "type": "video",
                 "youtubeId": "22oqcvdSfus",
                 "ratio": "1/1"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video5-frozenmatcha",
-                "name": "Californiascalling_Video5_Frozenmatcha.mp4",
+                "name": "Californiascalling_Frozenmatcha.mp4",
                 "type": "video",
                 "youtubeId": "b8yJWcrIqoI",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video6-loop",
-                "name": "Californiascalling_Video6_Loop.mp4",
+                "name": "Californiascalling_Loop.mp4",
                 "type": "video",
                 "youtubeId": "E_VtxIV-ZgU",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video7-matchymatcha",
-                "name": "Californiascalling_Video7_Matchymatcha.mp4",
+                "name": "Californiascalling_Matchymatcha.mp4",
                 "type": "video",
                 "youtubeId": "sJnY-Up32fU",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video7-matchymatcha-carre",
-                "name": "Californiascalling_Video7_Matchymatcha_Carré.mp4",
+                "name": "Californiascalling_Matchymatcha_Carré.mp4",
                 "type": "video",
                 "youtubeId": "7Wx9mTBGuAA",
                 "ratio": "1/1"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video9-rainy",
-                "name": "Californiascalling_Video9_Rainy.mp4",
+                "name": "Californiascalling_Rainy.mp4",
                 "type": "video",
                 "youtubeId": "gqZ-x4v2jp8",
                 "ratio": "9/16"
               },
               {
                 "id": "organique-lipault-lipault-californiascalling-video9-rainycarre",
-                "name": "Californiascalling_Video9_Rainycarré.mp4",
+                "name": "Californiascalling_Rainycarré.mp4",
                 "type": "video",
                 "youtubeId": "-j7kdJdfzds",
                 "ratio": "1/1"
@@ -532,7 +532,7 @@
               },
               {
                 "id": "organique-all-all-brand-content-pride-v1",
-                "name": "Brand_Content_Pride_V1.mp4",
+                "name": "Brand_Content_Pride.mp4",
                 "type": "video",
                 "youtubeId": "kVbTOaK9imY",
                 "ratio": "9/16"
@@ -588,7 +588,7 @@
               },
               {
                 "id": "organique-all-all-music-teaser-9-16-2",
-                "name": "Music_Teaser_9-16_2.mp4",
+                "name": "Music_Teaser.mp4",
                 "type": "video",
                 "youtubeId": "-PoPfDstEjg",
                 "ratio": "16/9"
@@ -611,7 +611,7 @@
               },
               {
                 "id": "organique-all-all-tiktok-2023-0423-destirome-9-16-2",
-                "name": "Tiktok_2023_0423_Destirome_9-16_2.mp4",
+                "name": "Tiktok_2023_0423_Destirome.mp4",
                 "type": "video",
                 "youtubeId": "0lBtMru7Hww",
                 "ratio": "16/9",
