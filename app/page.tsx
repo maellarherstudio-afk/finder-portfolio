@@ -18,6 +18,15 @@ export default function Home() {
         display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
         padding: "40px 32px",
       }}>
+        {/* Nom */}
+        <p style={{
+          fontFamily: "-apple-system, 'SF Pro Display', BlinkMacSystemFont, sans-serif",
+          fontWeight: 700, fontSize: 13, letterSpacing: "0.08em", textTransform: "uppercase",
+          color: "rgba(255,255,255,0.4)", margin: "0 0 20px", textAlign: "center",
+        }}>
+          Maël Larher Studio
+        </p>
+
         {/* Dialog macOS */}
         <div style={{
           background: "rgba(44,44,44,0.97)",
@@ -32,7 +41,7 @@ export default function Home() {
         }}>
           <div>
             <p style={{ fontWeight: 700, fontSize: 15, color: "rgba(255,255,255,0.95)", margin: "0 0 8px" }}>
-              « Maël Larher » ne peut pas s&apos;ouvrir
+              « Portfolio » ne peut pas s&apos;ouvrir
             </p>
             <p style={{ fontWeight: 400, fontSize: 13, color: "rgba(255,255,255,0.55)", margin: 0, lineHeight: 1.5 }}>
               Ce portfolio a été conçu pour une expérience desktop. Installe-toi devant un ordinateur pour le découvrir.
