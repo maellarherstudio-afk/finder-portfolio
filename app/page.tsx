@@ -10,6 +10,24 @@ export default function Home() {
 
   return (
     <div className="w-full min-h-screen" style={{ position: "relative", overflow: "hidden", background: "#0d0d0d" }}>
+
+      {/* Message mobile */}
+      <div className="md:hidden" style={{
+        position: "fixed", inset: 0, zIndex: 9999,
+        background: "radial-gradient(ellipse 80% 60% at 20% 50%, #1a1a3e 0%, transparent 60%), radial-gradient(ellipse 60% 70% at 80% 30%, #0d2030 0%, transparent 55%), radial-gradient(ellipse 50% 50% at 60% 80%, #1e1228 0%, transparent 50%), #0d0d0d",
+        display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
+        padding: "40px 32px", textAlign: "center", gap: 24,
+      }}>
+        <span style={{ fontSize: 48 }}>🚀</span>
+        <p style={{
+          fontFamily: "-apple-system, 'SF Pro Display', BlinkMacSystemFont, sans-serif",
+          fontWeight: 700, fontSize: 18, color: "rgba(255,255,255,0.9)",
+          lineHeight: 1.5, margin: 0,
+        }}>
+          Malheureusement... ce site n&apos;aime pas trop les mobiles.<br />
+          Installez-vous confortablement devant un ordinateur pour découvrir mon portfolio&nbsp;!
+        </p>
+      </div>
       {/* Fond permanent — visible pendant le boot ET après */}
       <div style={{
         position: "absolute", inset: 0, zIndex: 0,
