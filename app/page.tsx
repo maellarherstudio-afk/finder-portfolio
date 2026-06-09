@@ -48,12 +48,15 @@ export default function Home() {
             </p>
           </div>
           <div style={{ width: "100%", height: 1, background: "rgba(255,255,255,0.08)" }} />
-          <button style={{
-            background: "none", border: "none", cursor: "default",
-            color: "#4da3ff", fontSize: 15, fontWeight: 600,
-            fontFamily: "inherit", padding: "4px 0",
-          }}>
-            OK
+          <button
+            onClick={() => navigator.share?.({ title: "Maël Larher Studio", url: "https://mael-larher-studio.vercel.app" })}
+            style={{
+              background: "none", border: "none", cursor: "pointer",
+              color: "#4da3ff", fontSize: 15, fontWeight: 600,
+              fontFamily: "inherit", padding: "4px 0",
+            }}
+          >
+            Partager
           </button>
         </div>
       </div>
